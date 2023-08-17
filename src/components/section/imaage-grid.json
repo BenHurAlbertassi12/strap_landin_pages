@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_section_imaage_grids",
+  "info": {
+    "displayName": "imaage-grid",
+    "icon": "apps"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    }
+  }
+}

@@ -2,7 +2,8 @@
   "collectionName": "components_section_section_two_columns",
   "info": {
     "displayName": "section_two_columns",
-    "icon": "attachment"
+    "icon": "attachment",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -17,12 +18,17 @@
       "required": true
     },
     "image": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "metadata": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section.section-metadata"
     }
   }
 }

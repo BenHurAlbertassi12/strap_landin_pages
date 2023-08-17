@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_section_text_grifs",
+  "info": {
+    "displayName": "text-grif",
+    "icon": "bold"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
