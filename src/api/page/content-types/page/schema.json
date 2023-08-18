@@ -31,6 +31,15 @@
         "section.section-contant"
       ],
       "required": true
+    },
+    "footer": {
+      "type": "richtext",
+      "required": true
+    },
+    "menu": {
+      "type": "component",
+      "repeatable": false,
+      "component": "menu.menu"
     }
   }
 }
